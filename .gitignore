@@ -2,3 +2,4 @@
 *.venv
 *fig
 *.txt
+*.pdf
