@@ -5,6 +5,6 @@ This repository contains a Python implementation of a simple feedforward neural 
 
 ### Features
 - Configurable Network Architecture: Define the number of hidden layers and their sizes through an input list, sizes.
-- Quadratic Cost Function: Used to calculate the error during training.
+- Quadratic Cost Function: Used to calculate the error during training in Network 1. In later networks, there are multiple cost functions experimented with.
 - Sigmoid Activation Function: Employed in the neurons for non-linear transformations.
-- Manual Backpropagation: Backpropagation algorithm is implemented by hand to optimize the network's weights and biases.
+- Manual Backpropagation: Backpropagation algorithm is implemented by hand to optimize the network's weights and biases in Network 1. In later networks, a module called Theano is used. 
